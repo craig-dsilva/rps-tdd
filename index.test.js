@@ -33,11 +33,11 @@ describe("rock, paper, scissors", () => {
   });
 
   it("should say right wins for paper vs. scissors", () => {
-  const left = "paper";
-  const right = "scissors";
+    const left = "paper";
+    const right = "scissors";
 
-  const result = rps(left, right);
+    const result = rps(left, right);
 
-  expect(result).toBe("right");
-});
+    expect(result).toBe("right");
+  });
 });
